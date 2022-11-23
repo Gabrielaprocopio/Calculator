@@ -1,0 +1,58 @@
+button{
+    
+    width: 2em;
+    height: 2em;
+    font-size: 0.98em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.2em;
+    font-family: Helvetica;
+
+}
+
+.orange{
+    background-color: #FF9500 ;
+    color: white
+}
+.zero{
+    width: 4.6em;
+    background-color: #505050;
+    color: white;
+}
+
+.lightGrey{
+ background-color: #c9c9c0;
+
+}
+
+.darkGrey {
+    background-color: #505050;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer
+}
+
+.container{
+    background-color: black;
+    width: 310px;
+    height:530px;
+    border-radius: 1em;
+   
+}
+.wrapper{
+    background-color: black;
+    border-radius: 1em;
+    
+}
+
+.result{
+    color:white;
+    display: flex;
+    justify-content: right;
+    margin-right: 1em;
+    font-size: 1.8em;
+    font: Helvetica;
+
+}
